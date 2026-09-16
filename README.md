@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode-Python/tree/master/0066-plus-one) |
+| [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 ## Linked List
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/HermanLKH/LeetCode-Python/tree/master/0206-reverse-linked-list) |
+| [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 ## Sorting
 |  |
 | ------- |
@@ -76,4 +78,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/HermanLKH/LeetCode-Python/tree/master/0020-valid-parentheses) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
