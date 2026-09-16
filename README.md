@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/HermanLKH/LeetCode-Python/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode-Python/tree/master/0066-plus-one) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/HermanLKH/LeetCode-Python/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
@@ -30,12 +32,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
