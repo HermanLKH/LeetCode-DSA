@@ -9,13 +9,7 @@ class Solution:
                 brackets.append(']')
             elif c == '{':
                 brackets.append('}')
-            elif len(brackets) > 0:
-                if brackets.pop() != c:
-                    return False
-            else:
+            elif not brackets or brackets.pop() != c:
                 return False
 
-        if len(brackets) > 0:
-            return False
-
-        return True
+        return not brackets
