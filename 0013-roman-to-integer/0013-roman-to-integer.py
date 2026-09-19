@@ -7,19 +7,18 @@ class Solution:
             'M': 1000
         }
         num  = 0
-        val  = 0
         fast = 1
 
         for slow in range(len(s)):
             if fast - slow == 1:
-                curr = roman_to_int[s[slow]]
-                next = roman_to_int[s[fast]] if fast < len(s) else None
+                curr_val = roman_to_int[s[slow]]
+                next_val = roman_to_int[s[fast]] if fast < len(s) else None
                 
-                if next and curr < next:
-                    num += curr * -1 + next
+                if next_val and curr_val < next_val:
+                    num += curr_val * -1 + next_val
                     fast += 2
                 else:
-                    num += curr
+                    num += curr_val
                     fast += 1
 
         return num
