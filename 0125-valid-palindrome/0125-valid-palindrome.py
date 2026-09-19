@@ -6,9 +6,9 @@ class Solution:
             return True
         
         left = 0
-        right = -1
+        right = len(s) - 1
 
-        for _ in range(int(len(s) / 2)):
+        while left < right:
             if s[left] == s[right]:
                 left, right = left + 1, right - 1
             else:
