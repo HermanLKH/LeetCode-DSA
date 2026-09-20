@@ -1,6 +1,10 @@
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums = sorted(nums)
+        l = 0
+
+        while len(nums) - l >= 3 and nums[l] + nums[-1] + nums[-2] < 0:
+            l += 1
 
         while len(nums) >= 3 and nums[-1] + nums[0] + nums[1] > 0:
             nums.pop()
@@ -9,7 +13,6 @@ class Solution:
             return []
 
         size = len(nums)
-        l = 0
         r = size - 1
         res  = {}
 
