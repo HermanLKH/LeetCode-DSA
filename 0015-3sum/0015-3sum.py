@@ -1,0 +1,38 @@
+class Solution:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
+        nums = sorted(nums)
+
+        while len(nums) >= 3 and nums[0] + nums[-1] + nums[-2] < 0:
+            nums.pop(0)
+
+        while len(nums) >= 3 and nums[-1] + nums[0] + nums[1] > 0:
+            nums.pop()
+
+        if len(nums) < 3:
+            return []
+
+        size = len(nums)
+        l = 0
+        r = size - 1
+        res  = {}
+
+        while l < size - 2:
+            m = l + 1
+            r = size - 1
+
+            while m < r:
+                val = nums[l] + nums[m] + nums[r]
+                
+                if val == 0:
+                    tri = [nums[l], nums[m], nums[r]]
+                    # res.append(tri) if tri not in res else None
+                    res[str(nums[l]) + str(nums[m]) + str(nums[r])] = tri
+                    m += 1
+                    r -= 1
+                elif val < 0:
+                    m += 1
+                else:
+                    r -= 1
+            l += 1
+
+        return list(res.values())
