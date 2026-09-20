@@ -2,9 +2,6 @@ class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums = sorted(nums)
 
-        while len(nums) >= 3 and nums[0] + nums[-1] + nums[-2] < 0:
-            nums.pop(0)
-
         while len(nums) >= 3 and nums[-1] + nums[0] + nums[1] > 0:
             nums.pop()
 
