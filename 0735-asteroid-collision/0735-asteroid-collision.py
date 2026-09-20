@@ -5,9 +5,10 @@ class Solution:
         for asteroid in asteroids:
             if asteroid > 0:
                 result.append(asteroid)
-            elif asteroid < 0:
+            else:
+                curr_asteroid = abs(asteroid)
+                
                 while result:
-                    curr_asteroid = abs(asteroid)
                     next_asteroid = result[-1]
 
                     if next_asteroid > 0:
