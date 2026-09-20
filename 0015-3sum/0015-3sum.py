@@ -17,6 +17,7 @@ class Solution:
         res  = []
 
         for l in range(size - 2):
+            # skip l if repeated on prev l
             if l > 0 and nums[l] == nums[l - 1]:
                 continue
 
@@ -26,19 +27,20 @@ class Solution:
             while m < r:
                 val = nums[l] + nums[m] + nums[r]
                 
-                if val == 0:
+                if val < 0:
+                    m += 1
+                elif val > 0:
+                    r -= 1
+                else:
                     res.append([nums[l], nums[m], nums[r]])
                     m += 1
                     r -= 1
 
+                    # skip repeated m & r
                     while m < r and nums[m] == nums[m - 1]:
                         m += 1
 
                     while m < r and nums[r] == nums[r + 1]:
                         r -= 1
-                elif val < 0:
-                    m += 1
-                else:
-                    r -= 1
                 
         return res
