@@ -25,7 +25,6 @@ class Solution:
                 
                 if val == 0:
                     tri = [nums[l], nums[m], nums[r]]
-                    # res.append(tri) if tri not in res else None
                     res[str(nums[l]) + str(nums[m]) + str(nums[r])] = tri
                     m += 1
                     r -= 1
