@@ -9,7 +9,7 @@ class Solution:
         while len(nums) >= 3 and nums[-1] + nums[0] + nums[1] > 0:
             nums.pop()
 
-        if len(nums) < 3:
+        if len(nums) - l < 3:
             return []
 
         size = len(nums)
@@ -25,7 +25,8 @@ class Solution:
                 
                 if val == 0:
                     tri = [nums[l], nums[m], nums[r]]
-                    res[str(nums[l]) + str(nums[m]) + str(nums[r])] = tri
+                    key = (nums[l], nums[m], nums[r])
+                    res[key] = tri
                     m += 1
                     r -= 1
                 elif val < 0:
