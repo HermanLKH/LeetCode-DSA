@@ -5,6 +5,7 @@ class Solution:
 
         while left < right:
             total = numbers[left] + numbers[right]
+            
             if total == target:
                 return [left + 1, right + 1]
             elif total > target:
