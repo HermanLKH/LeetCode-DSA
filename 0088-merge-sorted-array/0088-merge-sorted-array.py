@@ -1,0 +1,19 @@
+class Solution:
+    def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        midx = m - 1
+        nidx = n - 1
+        r    = m + n - 1
+
+        while nidx >= 0:
+            if midx >= 0 and nums1[midx] > nums2[nidx]:
+                nums1[r] = nums1[midx]
+                midx -= 1
+            else:
+                nums1[r] = nums2[nidx]
+                nidx -= 1
+            
+            r -= 1
+            
