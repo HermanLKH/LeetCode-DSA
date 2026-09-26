@@ -3,8 +3,9 @@ class Solution:
         profit, buyPrice = 0, prices[0]
 
         for price in prices[1:]:
-            profit = max(profit, price - buyPrice)
+            if price < buyPrice:
+                buyPrice = price
 
-            buyPrice = min(price, buyPrice)
+            profit = max(profit, price - buyPrice)
 
         return profit
