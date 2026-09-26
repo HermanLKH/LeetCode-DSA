@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/HermanLKH/LeetCode-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HermanLKH/LeetCode-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 | [0682-baseball-game](https://github.com/HermanLKH/LeetCode-Python/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/HermanLKH/LeetCode-Python/tree/master/0735-asteroid-collision) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/HermanLKH/LeetCode-Python/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 ## Math
@@ -142,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0011-container-with-most-water) |
+## Sliding Window
+|  |
+| ------- |
+| [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 <!---LeetCode Topics End-->
