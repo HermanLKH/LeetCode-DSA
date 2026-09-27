@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/HermanLKH/LeetCode-Python/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HermanLKH/LeetCode-Python/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode-Python/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HermanLKH/LeetCode-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0374-guess-number-higher-or-lower](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0374-guess-number-higher-or-lower) |
