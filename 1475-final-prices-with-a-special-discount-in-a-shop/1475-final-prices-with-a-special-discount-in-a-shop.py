@@ -4,12 +4,14 @@ class Solution:
         res = prices.copy()
 
         for i in range(len(prices) - 1, -1, -1):
-            while st and prices[i] < prices[st[-1]]:
+            price = prices[i]
+            
+            while st and price < st[-1]:
                 st.pop()
             
             if st:
-                res[i] -= prices[st[-1]]
+                res[i] -= st[-1]
             
-            st.append(i)
-        print(st)
+            st.append(price)
+
         return res
