@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/HermanLKH/LeetCode-Python/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode-Python/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0069-sqrtx) |
 | [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 ## Linked List
 |  |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HermanLKH/LeetCode-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0704-binary-search](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0704-binary-search) |
 ## Floyd's Cycle Finding Algorithm
@@ -152,4 +154,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
