@@ -13,12 +13,15 @@ class Solution:
         
         while st:
             node = st.pop()
-            res.append(node.val) if node else None
 
-            if node:
-                if node.right:
-                    st.append(node.right)
-                if node.left:
-                    st.append(node.left)
+            if node is None:
+                continue
+
+            res.append(node.val)
+
+            if node.right:
+                st.append(node.right)
+            if node.left:
+                st.append(node.left)
                 
         return res
