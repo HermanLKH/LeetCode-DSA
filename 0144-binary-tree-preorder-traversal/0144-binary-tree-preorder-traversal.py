@@ -6,6 +6,9 @@
 #         self.right = right
 class Solution:
     def preorderTraversal(self, root: TreeNode | None) -> list[int]:
+        if root is None:
+            return []
+
         st = []
         res = []
 
@@ -13,9 +16,6 @@ class Solution:
         
         while st:
             node = st.pop()
-
-            if node is None:
-                continue
 
             res.append(node.val)
 
