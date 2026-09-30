@@ -11,22 +11,22 @@ class Solution:
 
         res = []
         st = [root]
-        visited = {}
+        processed = {}
         curr = root
 
         while curr or st:
             while curr:
-                if curr.left and not visited.get(curr.left):
+                if curr.left and not processed.get(curr.left):
                     curr = curr.left
                     st.append(curr)
-                elif curr.right and not visited.get(curr.right):
+                elif curr.right and not processed.get(curr.right):
                     curr = curr.right
                     st.append(curr)
                 else:
                     curr = None
                 
             node = st.pop()
-            visited[node] = True
+            processed[node] = True
             res.append(node.val)
             curr = st[-1] if st else None
 
