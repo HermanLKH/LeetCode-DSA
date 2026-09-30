@@ -6,19 +6,14 @@ class Solution:
             m = l + (r - l) // 2
             row = matrix[m]
 
-            if row[0] < target:
-                l = m + 1
-
-                if row[-1] > target:
-                    l = m
-                    break
-                elif row[-1] == target:
-                    return True
-            elif row[0] > target:
+            if target < row[0]:
                 r = m - 1
+            elif target > row[-1]:
+                l = m + 1
             else:
-                return True
-        
+                l = m
+                break
+
         row  = matrix[l]
         l, r = 0, len(row) - 1
 
