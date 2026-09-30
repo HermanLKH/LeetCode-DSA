@@ -13,13 +13,13 @@ class Solution:
 
         st = [root]
         res = []
-        
+
         while st:
             node = st.pop()
             res.append(node.val)
 
             if node.children:
-                for c in node.children[::-1]:
+                for c in reversed(node.children):
                     st.append(c)
         
         return res
