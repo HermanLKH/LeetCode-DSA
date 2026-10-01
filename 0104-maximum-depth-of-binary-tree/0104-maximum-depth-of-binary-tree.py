@@ -9,8 +9,7 @@ class Solution:
         if not root:
             return 0
         
-        q = deque()
-        q.append(root)
+        q = deque([root])
         max_depth = 0
 
         while q:
