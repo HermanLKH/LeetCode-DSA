@@ -1,27 +1,21 @@
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
-        prefixes = []
+        if not strs:
+            return ''
 
-        for c in strs[0]:
-            prefixes.append(c)
+        prefix = strs[0]
+        prefix_len = len(prefix)
 
-        for s in strs[1::]:
-            if prefixes:
-                size_diff = len(prefixes) - len(s)
+        for i in range(1, len(strs), 1):
+            s = strs[i]
+            prefix_len = min(prefix_len, len(s))
 
-                if size_diff > 0:
-                    for _ in range(0, size_diff, 1):
-                        prefixes.pop()
+            for j in range(prefix_len):
+                if s[j] != prefix[j]:
+                    prefix_len = j
+                    break
 
-                for i in range(0, len(prefixes), 1):
-                    c = s[i]
-                    
-                    if c != prefixes[i]:
-                        for _ in range(0, len(prefixes) - i, 1):
-                            prefixes.pop()
-
-                        break
-            else:
+            if prefix_len == 0:
                 return ''
 
-        return ''.join(prefixes)
+        return prefix[:prefix_len]
