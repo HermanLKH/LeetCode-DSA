@@ -1,15 +1,11 @@
 class Solution:
     def intersection(self, nums: list[list[int]]) -> list[int]:
-        counter = {}
-        res = []
-        size = len(nums)
+        common = set(nums[0])
 
-        for num in nums:
-            for n in num:
-                counter[n] = counter.get(n, 0) + 1
+        for arr in nums[1:]:
+            common.intersection_update(arr)
 
-        for num, count in counter.items():
-            if count == size:
-                res.append(num)
+            if not common:
+                return []
 
-        return sorted(res)
+        return sorted(common)
