@@ -14,8 +14,5 @@ class Solution:
             
         if letters[l] <= target:
             return letters[0]
-        else:
-            return letters[l]
-
-
-        
+            
+        return letters[l]
