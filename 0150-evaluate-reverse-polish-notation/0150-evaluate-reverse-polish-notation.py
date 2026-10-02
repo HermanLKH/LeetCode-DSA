@@ -1,8 +1,5 @@
 class Solution:
     def evalRPN(self, tokens: list[str]) -> int:
-        if len(tokens) == 1:
-            return int(tokens[0])
-
         st = []
         operators = ('+', '-', '*', '/')
 
