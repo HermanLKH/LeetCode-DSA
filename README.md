@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0682-baseball-game](https://github.com/HermanLKH/LeetCode-Python/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/HermanLKH/LeetCode-Python/tree/master/0735-asteroid-collision) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 ## Math
 |  |
 | ------- |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0853-car-fleet](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0853-car-fleet) |
 ## String
 |  |
@@ -179,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HermanLKH/LeetCode-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0202-happy-number) |
 | [0344-reverse-string](https://github.com/HermanLKH/LeetCode-Python/tree/master/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 ## Binary Search
 |  |
 | ------- |
@@ -186,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/HermanLKH/LeetCode-Python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0374-guess-number-higher-or-lower](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0875-koko-eating-bananas) |
