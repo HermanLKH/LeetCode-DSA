@@ -6,15 +6,10 @@ class Solution:
         st = []
         operators = ('+', '-', '*', '/')
 
-        for i, token in enumerate(tokens):
+        for token in tokens:
             if token in operators:
-                num1, j = st.pop()
-                num2, k = st.pop()
-
-                if j < k:
-                    temp = num2
-                    num2 = num1
-                    num1 = temp
+                num1 = st.pop()
+                num2 = st.pop()
 
                 if token == '+':
                     num2 += num1
@@ -25,8 +20,8 @@ class Solution:
                 else:
                     num2 = int(num2 / num1)
 
-                st.append((num2, max(j, k)))
+                st.append(num2)
             else:
-                st.append((int(token), i))
+                st.append(int(token))
         
-        return st[0][0]
+        return st[0]
