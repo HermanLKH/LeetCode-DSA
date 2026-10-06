@@ -8,15 +8,17 @@ class Solution:
             if nums[m] == target:
                 return m
             
-            # left segment
+            # if left segment sorted
             if nums[l] <= nums[m]:
-                if nums[l] <= target <= nums[m]:
+                # if within left segment
+                if nums[l] <= target < nums[m]:
                     r = m - 1
                 else:
                     l = m + 1
-            # right segment
+            # if right segment sorted
             else:
-                if nums[m] <= target <= nums[r]:
+                # if within right segment
+                if nums[m] < target <= nums[r]:
                     l = m + 1
                 else:
                     r = m - 1
