@@ -14,7 +14,6 @@ class Solution:
         pivot = l
         l, r = 0, pivot - 1
         l2, r2 = pivot, len(nums) - 1
-        print(l, r, l2, r2)
         
         while l <= r:
             m = l + (r - l) // 2
