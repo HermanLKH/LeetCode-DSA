@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Math
 |  |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/HermanLKH/LeetCode-Python/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/HermanLKH/LeetCode-Python/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [2390-removing-stars-from-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2390-removing-stars-from-a-string) |
 ## Divide and Conquer
 |  |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Quickselect
 |  |
