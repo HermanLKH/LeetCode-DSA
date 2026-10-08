@@ -9,7 +9,7 @@ class Solution:
             
             st.append(i)
 
-        for i, num in enumerate(nums):
+        for num in nums:
             while st and num > nums[st[-1]]:
                 res[st.pop()] = num
 
