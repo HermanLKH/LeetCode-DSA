@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0881-boats-to-save-people) |
 | [0994-rotting-oranges](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Hash Table
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
