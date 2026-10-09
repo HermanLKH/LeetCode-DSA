@@ -6,7 +6,7 @@ class Solution:
         # Time complexity: O(n)
         heapq.heapify(heap)
 
-        # Time complexity: O(n - k log n)
+        # Time complexity: O((n - k) log n)
         for _ in range(len(nums) - k):
             heapq.heappop(heap)
 
