@@ -9,7 +9,7 @@ class Solution:
             dist = point[0] ** 2 + point[1] ** 2
             heap.append((dist, point))
 
-        # Time complexity: O(log n)
+        # Time complexity: O(n)
         heapq.heapify(heap)
 
         # Time complexity: O(k log n)
