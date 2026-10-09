@@ -1,5 +1,5 @@
 class Solution:
-    # Time complexity: O(n + (k - n) log n)
+    # Time complexity: O(n + (n - k) log n)
     def findKthLargest(self, nums: list[int], k: int) -> int:
         # Time complexity: O(n)
         heap = nums.copy()
