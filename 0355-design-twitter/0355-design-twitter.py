@@ -5,7 +5,6 @@ class User:
         self.followees = set()
 
 class Twitter:
-
     def __init__(self):
         self.users = {}
         self.time = 0
@@ -17,8 +16,12 @@ class Twitter:
     # unique tweetId, userId
     def postTweet(self, userId: int, tweetId: int) -> None:
         self._createUser(userId)
-        self.users[userId].tweets.append((self.time, tweetId))
+        tweets = self.users[userId].tweets
+        tweets.append((self.time, tweetId))
         self.time -= 1
+
+        if len(tweets) > 10:
+            tweets.pop(0)
 
     # 10 most recent tweetIds of userId/ followers
     def getNewsFeed(self, userId: int) -> list[int]:
