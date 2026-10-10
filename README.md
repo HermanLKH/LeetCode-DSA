@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/HermanLKH/LeetCode-Python/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
@@ -217,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/HermanLKH/LeetCode-Python/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Two Pointers
 |  |
