@@ -8,9 +8,10 @@ class Solution:
         time = 0
 
         while heap or cd:
-            time += 1
-
-            if heap:
+            if not heap:
+                time = cd[0][1]
+            else:
+                time += 1
                 cnt = heapq.heappop(heap) + 1
 
                 if cnt < 0:
