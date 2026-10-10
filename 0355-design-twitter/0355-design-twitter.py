@@ -1,6 +1,7 @@
 class User:
-    def __init__(self, userId):
-        self.userId = userId
+    __slots__ = ("tweets", "followees")
+
+    def __init__(self):
         self.tweets = []
         self.followees = set()
 
@@ -11,7 +12,7 @@ class Twitter:
 
     def _createUser(self, userId):
         if userId not in self.users:
-            self.users[userId] = User(userId)
+            self.users[userId] = User()
 
     # unique tweetId, userId
     def postTweet(self, userId: int, tweetId: int) -> None:
@@ -32,7 +33,7 @@ class Twitter:
         latestTweets = []
         latestFeeds = []
 
-        for uid in followees | {userId}:
+        for uid in chain(followees, (userId, )):
             if not self.users[uid].tweets:
                 continue
 
