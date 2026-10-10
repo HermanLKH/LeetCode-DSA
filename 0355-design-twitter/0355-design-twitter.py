@@ -1,32 +1,39 @@
+class User:
+    def __init__(self, userId):
+        self.userId = userId
+        self.tweets = []
+        self.followees = set()
+
 class Twitter:
 
     def __init__(self):
         self.users = {}
-        self.count = 0
+        self.time = 0
+
+    def _createUser(self, userId):
+        if userId not in self.users:
+            self.users[userId] = User(userId)
 
     # unique tweetId, userId
     def postTweet(self, userId: int, tweetId: int) -> None:
-        self.count -= 1
-
-        if userId not in self.users:
-            self.users[userId] = ([], set())  # tweetIds, followeeIds
-
-        self.users[userId][0].append((self.count, tweetId))  ## append latest tweetId to stack
+        self._createUser(userId)
+        self.users[userId].tweets.append((self.time, tweetId))
+        self.time -= 1
 
     # 10 most recent tweetIds of userId/ followers
     def getNewsFeed(self, userId: int) -> list[int]:
         if userId not in self.users:
             return []
 
-        followees = self.users[userId][1]
+        followees = self.users[userId].followees
         latestTweets = []
         latestFeeds = []
 
         for uid in followees | {userId}:
-            if not self.users[uid][0]:
+            if not self.users[uid].tweets:
                 continue
 
-            tweets = self.users[uid][0]
+            tweets = self.users[uid].tweets
             index = len(tweets) - 1
             time, tweetId = tweets[index]
             latestTweets.append((time, tweetId, uid, index))
@@ -38,30 +45,22 @@ class Twitter:
             latestFeeds.append(tweetId)
 
             if index > 0:
-                time, tweetId = self.users[uid][0][index - 1]
+                time, tweetId = self.users[uid].tweets[index - 1]
                 heapq.heappush(latestTweets, (time, tweetId, uid, index - 1))
 
         return latestFeeds
         
     # followerId follows followeeId
     def follow(self, followerId: int, followeeId: int) -> None:
-        if followerId == followeeId:
-            return
-
-        if followerId not in self.users:
-            self.users[followerId] = ([], set())
-
-        if followeeId not in self.users:
-            self.users[followeeId] = ([], set())
-
-        self.users[followerId][1].add(followeeId)
+        self._createUser(followerId)
+        self._createUser(followeeId)
+        self.users[followerId].followees.add(followeeId)
 
     # followerId unfollows followeeId
     def unfollow(self, followerId: int, followeeId: int) -> None:
-        if followerId not in self.users:
-            return
-
-        self.users[followerId][1].discard(followeeId)
+        self._createUser(followerId)
+        self._createUser(followeeId)
+        self.users[followerId].followees.discard(followeeId)
 
 # Your Twitter object will be instantiated and called as such:
 # obj = Twitter()
