@@ -14,7 +14,7 @@ class Solution:
         if heap and -heap[0][0] > (len(s) + 1) // 2:
             return ""
         
-        while heap or prev:
+        while heap:
             f, c = heapq.heappop(heap)
             res += c
 
