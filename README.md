@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
+| [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Hash Table
 |  |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0853-car-fleet) |
 | [0881-boats-to-save-people](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0881-boats-to-save-people) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## String
 |  |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
+| [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 ## Bucket Sort
 |  |
 | ------- |
