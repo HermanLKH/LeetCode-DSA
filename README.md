@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/HermanLKH/LeetCode-Python/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
+| [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
 | [2390-removing-stars-from-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2390-removing-stars-from-a-string) |
 ## Divide and Conquer
 |  |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
+| [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 ## Bucket Sort
 |  |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0881-boats-to-save-people) |
+| [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
 ## Sliding Window
 |  |
 | ------- |
