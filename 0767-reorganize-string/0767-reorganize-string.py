@@ -1,4 +1,4 @@
-# Time complexity:    O(N log C), C <= 26
+# Time complexity:    O(N) => O(N log C), C <= 26
 # Storage complexity: O(N)
 class Solution:
     def reorganizeString(self, s: str) -> str:
