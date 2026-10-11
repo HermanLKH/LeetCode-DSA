@@ -1,32 +1,27 @@
 class Solution:
     def reorganizeString(self, s: str) -> str:
         freq = {}
-        cd   = []
-        heap = []
-        res  = ""
 
         for c in s:
             freq[c] = freq.get(c, 0) - 1
 
-        for c, f in freq.items():
-            heap.append((f, c))
-
+        heap = [(f, c) for c, f in freq.items()]
         heapq.heapify(heap)
+
+        prev = None
+        res  = []
         
-        while heap or cd:
+        while heap or prev:
             f, c = heapq.heappop(heap)
+            res.append(c)
 
-            res += c
-
-            while cd:
-                heapq.heappush(heap, cd.pop())
+            if prev:
+                heapq.heappush(heap, prev)
 
             f += 1
+            prev = (f, c) if f < 0 else None
 
-            if f < 0:
-                cd.append((f, c))
+            if not heap and prev:
+                return ""
 
-            if not heap and cd:
-                return ''
-
-        return res
+        return "".join(res)
