@@ -9,11 +9,14 @@ class Solution:
         heapq.heapify(heap)
 
         prev = None
-        res  = []
+        res  = ""
+
+        if heap and -heap[0][0] > (len(s) + 1) // 2:
+            return ""
         
         while heap or prev:
             f, c = heapq.heappop(heap)
-            res.append(c)
+            res += c
 
             if prev:
                 heapq.heappush(heap, prev)
@@ -21,7 +24,4 @@ class Solution:
             f += 1
             prev = (f, c) if f < 0 else None
 
-            if not heap and prev:
-                return ""
-
-        return "".join(res)
+        return res
