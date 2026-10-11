@@ -1,16 +1,24 @@
 class MyHashSet:
 
     def __init__(self):
-        self.keys = bytearray(1_000_001)
+        self.buckets = [[] for _ in range(1000)]
 
     def add(self, key: int) -> None:
-        self.keys[key] = 1
+        bucket = self.buckets[key % 1000]
+        
+        if key not in bucket:
+            bucket.append(key)
 
     def remove(self, key: int) -> None:
-        self.keys[key] = 0
+        bucket = self.buckets[key % 1000]
+        
+        if key in bucket:
+            bucket.remove(key)
 
     def contains(self, key: int) -> bool:
-        return self.keys[key] == 1
+        bucket = self.buckets[key % 1000]
+        
+        return key in bucket
 
 
 # Your MyHashSet object will be instantiated and called as such:
