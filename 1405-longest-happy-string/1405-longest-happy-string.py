@@ -29,5 +29,4 @@ class Solution:
             if cnt < 0:
                 prev = (cnt, hc)
 
-
         return "".join(res)
