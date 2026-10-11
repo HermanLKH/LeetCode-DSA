@@ -6,7 +6,6 @@ class Solution:
             qHeap[i] = (task[0], task[1], i)
 
         heapq.heapify(qHeap)
-        heapq.heapify(pHeap)
 
         time = 1
         res  = []
