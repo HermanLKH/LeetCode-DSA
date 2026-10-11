@@ -1,30 +1,29 @@
 class Solution:
     def getOrder(self, tasks: list[list[int]]) -> list[int]:
-        qHeap, pHeap = tasks.copy(), []
+        qTasks = deque(
+            sorted(
+                (qTime, pTime, i)
+                for i, (qTime, pTime) in enumerate(tasks)
+            )
+        )
 
-        for i, task in enumerate(qHeap):
-            qHeap[i] = (task[0], task[1], i)
+        heap  = []
+        res   = [] 
+        time  = 1
 
-        heapq.heapify(qHeap)
-
-        time = 1
-        res  = []
-
-        while qHeap or pHeap:
-            while qHeap:
-                if qHeap[0][0] <= time:
-                    task = heapq.heappop(qHeap)
-                    heapq.heappush(pHeap, (task[1], task[2]))
-
+        while qTasks or heap:
+            while qTasks:
+                if qTasks[0][0] <= time:
+                    qTime, pTime, i = qTasks.popleft()
+                    heapq.heappush(heap, (pTime, i))
                 else:
-                    if not pHeap:
-                        time = qHeap[0][0]
+                    if not heap:
+                        time = qTasks[0][0]
                     else:
                         break
 
-            processed = heapq.heappop(pHeap)
-            res.append(processed[1])
-
-            time += processed[0]
+            processing, i = heapq.heappop(heap)
+            res.append(i)
+            time += processing
 
         return res
