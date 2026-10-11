@@ -1,16 +1,16 @@
 class MyHashSet:
 
     def __init__(self):
-        self.keys = [False] * 1_000_001
+        self.keys = bytearray(1_000_001)
 
     def add(self, key: int) -> None:
-        self.keys[key] = True
+        self.keys[key] = 1
 
     def remove(self, key: int) -> None:
-        self.keys[key] = False
+        self.keys[key] = 0
 
     def contains(self, key: int) -> bool:
-        return self.keys[key]
+        return self.keys[key] == 1
 
 
 # Your MyHashSet object will be instantiated and called as such:
