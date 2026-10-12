@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/HermanLKH/LeetCode-Python/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 | [0735-asteroid-collision](https://github.com/HermanLKH/LeetCode-Python/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Math
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/HermanLKH/LeetCode-Python/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 ## Recursion
 |  |
 | ------- |
@@ -242,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 ## Two Pointers
 |  |
 | ------- |
@@ -408,4 +412,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
