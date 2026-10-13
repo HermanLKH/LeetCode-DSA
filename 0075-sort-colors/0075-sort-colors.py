@@ -6,14 +6,25 @@ class Solution:
         if len(nums) == 1:
             return
 
-        freq = {0: 0, 1: 0, 2: 0}
-        i = 0
+        l, m, r = 0, 0, len(nums) - 1
 
-        for num in nums:
-            freq[num] += 1
+        while m <= r:
+            if nums[m] == 0:
+                temp    = nums[l]
+                nums[l] = nums[m]
+                nums[m] = temp
 
-        for num in range(3):
-            for _ in range(freq[num]):
-                nums[i] = num
-                i += 1
+                l += 1
+                m += 1
+
+            elif nums[m] == 1:
+                m += 1
+
+            else:
+                temp    = nums[r]
+                nums[r] = nums[m]
+                nums[m] = temp
+
+                r -= 1
+                
             
