@@ -2,17 +2,17 @@ class NumArray:
     # Time complexity:  O(N)
     # Space complexity: O(N)
     def __init__(self, nums: list[int]):
-        self.prefix = [0]
+        self.prefix = nums
 
-        for num in nums:
-            self.prefix.append(self.prefix[-1] + num)
+        for i in range(1, len(self.prefix)):
+            self.prefix[i] += self.prefix[i - 1]
 
     # Time complexity:  O(1)
     # Space complexity: O(1)
     def sumRange(self, left: int, right: int) -> int:
         if left == 0:
-            return self.prefix[right + 1]
-        return self.prefix[right + 1] - self.prefix[left]
+            return self.prefix[right]
+        return self.prefix[right] - self.prefix[left - 1]
 
 
 # Your NumArray object will be instantiated and called as such:
