@@ -10,6 +10,8 @@ class NumArray:
     # Time complexity:  O(1)
     # Space complexity: O(1)
     def sumRange(self, left: int, right: int) -> int:
+        if left == 0:
+            return self.prefix[right + 1]
         return self.prefix[right + 1] - self.prefix[left]
 
 
