@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
+| [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Math
 |  |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 ## Linked List
 |  |
 | ------- |
@@ -318,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 ## Newton's Method
 |  |
 | ------- |
@@ -447,4 +451,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
