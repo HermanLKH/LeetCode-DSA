@@ -2,7 +2,7 @@ class Solution:
     def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         window_sum = 0
         l = 0
-        shortest = len(nums) + 1
+        shortest = float("inf")
 
         for r, num in enumerate(nums):
             window_sum += num
@@ -19,5 +19,5 @@ class Solution:
                 window_sum -= nums[l]
                 l += 1
             
-        return shortest if shortest <= len(nums) else 0
+        return shortest if shortest != float("inf") else 0
         
