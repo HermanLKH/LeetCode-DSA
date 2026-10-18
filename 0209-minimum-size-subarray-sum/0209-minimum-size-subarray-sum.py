@@ -13,6 +13,6 @@ class Solution:
 
             if total >= target:
                 shortest = min(shortest, i - left + 1)
-
+        
         return shortest if shortest <= len(nums) else 0
         
