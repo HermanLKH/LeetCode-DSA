@@ -1,5 +1,5 @@
 # Time complexity:  O(N)
-# Space complexity: O(N)
+# Space complexity: O(M + 1), M = Number of odd numbers
 class Solution:
     def numberOfSubarrays(self, nums: list[int], k: int) -> int:
         odd_cnt, res = 0, 0
