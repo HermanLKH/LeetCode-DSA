@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0881-boats-to-save-people) |
+| [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
+| [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Math
 |  |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 ## Newton's Method
 |  |
 | ------- |
@@ -443,4 +446,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0724-find-pivot-index) |
+| [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 <!---LeetCode Topics End-->
