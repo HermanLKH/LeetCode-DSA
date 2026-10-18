@@ -1,21 +1,18 @@
 class Solution:
     def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         total = 0
-        window = deque()
-        shortest = 0
+        left  = 0
+        shortest = len(nums) + 1
 
-        for num in nums:
-            window.append(num)
+        for i, num in enumerate(nums):
             total += num
 
-            while window and total - window[0] >= target:
-                total -= window.popleft()
+            while total - nums[left] >= target:
+                total -= nums[left]
+                left += 1
 
             if total >= target:
-                if shortest == 0:
-                    shortest = len(window)
-                else:
-                    shortest = min(shortest, len(window))
+                shortest = min(shortest, i - left + 1)
 
-        return shortest
+        return shortest if shortest <= len(nums) else 0
         
