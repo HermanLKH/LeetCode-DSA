@@ -5,9 +5,6 @@ class Solution:
         shortest = len(nums) + 1
 
         for r, num in enumerate(nums):
-            if num >= target:
-                return 1
-            
             window_sum += num
 
             while window_sum >= target:
@@ -15,7 +12,7 @@ class Solution:
 
                 if length < shortest:
                     shortest = length
-                    
+
                     if shortest == 1:
                         return 1
 
