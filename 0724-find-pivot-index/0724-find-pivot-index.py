@@ -8,12 +8,11 @@ class Solution:
 
         # Time complexity: O(N)
         for i in range(len(nums)):
-            if i >= 1:
-                sumLeft += nums[i - 1]
-
             sumRight -= nums[i]
 
             if sumLeft == sumRight:
                 return i
+
+            sumLeft += nums[i]
 
         return -1
