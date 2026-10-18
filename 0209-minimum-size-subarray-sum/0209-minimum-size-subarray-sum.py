@@ -10,12 +10,17 @@ class Solution:
             
             window_sum += num
 
-            while window_sum - nums[l] >= target:
+            while window_sum >= target:
+                length = r - l + 1
+
+                if length < shortest:
+                    shortest = length
+                    
+                    if shortest == 1:
+                        return 1
+
                 window_sum -= nums[l]
                 l += 1
-
-            if window_sum >= target:
-                shortest = min(shortest, r - l + 1)
-        
+            
         return shortest if shortest <= len(nums) else 0
         
