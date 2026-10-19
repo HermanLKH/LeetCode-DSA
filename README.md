@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0503-next-greater-element-ii) |
+| [0525-contiguous-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0304-range-sum-query-2d-immutable) |
+| [0525-contiguous-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
