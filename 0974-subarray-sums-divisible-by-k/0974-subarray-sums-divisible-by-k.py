@@ -1,15 +1,14 @@
 class Solution:
     def subarraysDivByK(self, nums: list[int], k: int) -> int:
-        runningModulus, res = 0, 0
+        rModulus, res = 0, 0
         lookup = {0: 1}
 
         for num in nums:
-            runningModulus += num
-            runningModulus %= k
+            rModulus = (rModulus + num) % k
 
-            if runningModulus in lookup:
-                res += lookup[runningModulus]
+            if rModulus in lookup:
+                res += lookup[rModulus]
 
-            lookup[runningModulus] = lookup.get(runningModulus, 0) + 1
+            lookup[rModulus] = lookup.get(rModulus, 0) + 1
         
         return res
