@@ -1,5 +1,5 @@
 # Time complexity:  O(N)
-# Space complexity: O(K)
+# Space complexity: O(k)
 class Solution:
     def subarraysDivByK(self, nums: list[int], k: int) -> int:
         rModulus, res = 0, 0
