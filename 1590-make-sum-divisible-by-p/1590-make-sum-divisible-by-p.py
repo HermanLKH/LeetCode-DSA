@@ -1,21 +1,25 @@
+# Time complexity:  O(N)
+# Space complexity: O(N)
 class Solution:
     def minSubarray(self, nums: list[int], p: int) -> int:
-        remain = sum(nums) % p
+        # Time complexity: O(N)
+        remainder = sum(nums) % p
 
-        if remain == 0:
+        if remainder == 0:
             return 0
-        
-        res = len(nums)
-        curr_remain = 0
-        lookup = {0: -1}
 
-        for i, num in enumerate(nums):
-            curr_remain = (curr_remain + num) % p
-            target = (curr_remain - remain) % p
+        rRemainder = 0
+        lookup = {0: -1}
+        res = len(nums)
+
+        # Time complexity: O(N)
+        for j, num in enumerate(nums):
+            rRemainder = (rRemainder + num) % p
+            target     = (rRemainder - remainder) % p
 
             if target in lookup:
-                res = min(i - lookup[target], res)
+                res = min(res, j - lookup[target])
 
-            lookup[curr_remain] = i
+            lookup[rRemainder] = j
 
         return -1 if res == len(nums) else res
