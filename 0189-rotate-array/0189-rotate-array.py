@@ -1,32 +1,17 @@
 class Solution:
-    def rotate(self, nums: list[int], k: int) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
+    def rotate(self, nums: List[int], k: int) -> None:
+        def reverse(l, r):
+            while l < r:
+                nums[l], nums[r] = nums[r], nums[l]
+                l += 1
+                r -= 1
+
         k %= len(nums)
 
         if k == 0:
-            return
+            return 0
 
-        l, r = 0, k
-        cnt = 0
-        start = 0
+        reverse(0, len(nums) - 1)
+        reverse(0, k - 1)
+        reverse(k, len(nums) - 1)
 
-        while cnt < len(nums):
-            current = start
-            temp = nums[current]
-
-            while True:
-                r = (current + k) % len(nums)
-
-                temp2 = nums[r]
-                nums[r] = temp
-                temp = temp2
-
-                current = r
-                cnt += 1
-
-                if current == start:
-                    break
-        
-            start += 1
