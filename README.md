@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/HermanLKH/LeetCode-Python/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0075-sort-colors) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/HermanLKH/LeetCode-Python/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
@@ -246,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/HermanLKH/LeetCode-Python/tree/master/0509-fibonacci-number) |
 ## Memoization
