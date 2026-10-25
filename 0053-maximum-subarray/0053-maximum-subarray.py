@@ -3,7 +3,7 @@ class Solution:
         if len(nums) == 1:
             return nums[0]
         
-        res = sum(nums)
+        res = nums[0]
         prefix_sum = 0
         min_prefix = 0
 
