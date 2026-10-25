@@ -6,7 +6,10 @@ class Solution:
         res = float('-inf')
 
         for num in nums:
-            current = max(num, current + num)
+            if current < 0:
+                current = 0
+                
+            current += num
             res = max(res, current)
 
         return res
