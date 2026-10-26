@@ -1,18 +1,14 @@
 class Solution:
     def sumOddLengthSubarrays(self, arr: list[int]) -> int:
-        l = 0
         res = 0
 
-        while l <= len(arr) - 1:
-            r = l + 1
-            res += arr[l]
+        for l in range(len(arr)):
+            window_sum = 0
 
-            while r <= len(arr) - 1:
+            for r in range(l, len(arr)):
+                window_sum += arr[r]
+
                 if (l + r) % 2 == 0:
-                    res += sum(arr[l:r + 1])
-
-                r += 1
-
-            l += 1
+                    res += window_sum
             
         return res
