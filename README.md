@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
+| [1732-find-the-highest-altitude](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Hash Table
@@ -482,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
+| [1732-find-the-highest-altitude](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1732-find-the-highest-altitude) |
 ## Pigeonhole Principle
 |  |
 | ------- |
