@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1046-last-stone-weight) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
+| [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
 ## Pigeonhole Principle
 |  |
