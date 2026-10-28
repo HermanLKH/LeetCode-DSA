@@ -14,27 +14,15 @@ class Solution:
         for q in queries:
             l, r = 0, len(prefix_sum) - 1
 
-            if q < prefix_sum[l]:
-                res.append(0)
-                continue
-
-            if q > prefix_sum[r]:
-                res.append(r + 1)
-                continue
-
             while l <= r:
                 m = l + (r - l) // 2
-                num = prefix_sum[m]
 
-                if q == num:
-                    res.append(m + 1)
-                    break
-                elif q > num:
+                if prefix_sum[m] <= q:
                     l = m + 1
                 else:
                     r = m - 1
-            else:
-                res.append(r + 1)
+
+            res.append(l)
 
         return res
                     
