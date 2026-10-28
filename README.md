@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1732-find-the-highest-altitude](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
+| [2389-longest-subsequence-with-limited-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
+| [2389-longest-subsequence-with-limited-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## String
 |  |
 | ------- |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0875-koko-eating-bananas](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [2389-longest-subsequence-with-limited-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [0881-boats-to-save-people](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0881-boats-to-save-people) |
 | [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
+| [2389-longest-subsequence-with-limited-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## Sliding Window
 |  |
 | ------- |
@@ -487,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1732-find-the-highest-altitude](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1732-find-the-highest-altitude) |
+| [2389-longest-subsequence-with-limited-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2389-longest-subsequence-with-limited-sum) |
 ## Pigeonhole Principle
 |  |
 | ------- |
