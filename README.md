@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [2390-removing-stars-from-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2390-removing-stars-from-a-string) |
 ## Divide and Conquer
 |  |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
