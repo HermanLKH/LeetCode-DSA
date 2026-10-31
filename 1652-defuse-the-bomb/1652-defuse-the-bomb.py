@@ -1,25 +1,26 @@
+# Time complexity:  O(N)
+# Space complexity: O(N)
 class Solution:
     def decrypt(self, code: list[int], k: int) -> list[int]:
-        res = [0] * len(code)
+        n = len(code)
+        res = [0] * n
 
         if k == 0:
             return res
+            
+        elif k > 0:
+            window_sum = sum(code[1:1 + k])
 
-        n = len(code)
-
-        if k > 0:
-            total = sum(code[1:1 + k])
-
-            for i in range(len(code)):
-                res[i] = total
-                total -= code[(i + 1) % n]
-                total += code[(i + k + 1) % n]
+            for i in range(n):
+                res[i] = window_sum
+                window_sum -= code[(i + 1) % n]
+                window_sum += code[(i + k + 1) % n]
         else:
-            total = sum(code[n: n + k - 1: -1])
+            window_sum = sum(code[k:])
 
-            for i in range(len(code)):
-                res[i] = total
-                total -= code[(i + k) % n]
-                total += code[i]
+            for i in range(n):
+                res[i] = window_sum
+                window_sum -= code[(i + k) % n]
+                window_sum += code[i]
 
         return res
