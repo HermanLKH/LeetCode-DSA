@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
+| [1652-defuse-the-bomb](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1652-defuse-the-bomb) |
 | [1732-find-the-highest-altitude](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1732-find-the-highest-altitude) |
 | [1834-single-threaded-cpu](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1834-single-threaded-cpu) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1652-defuse-the-bomb](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1652-defuse-the-bomb) |
 ## Newton's Method
 |  |
 | ------- |
