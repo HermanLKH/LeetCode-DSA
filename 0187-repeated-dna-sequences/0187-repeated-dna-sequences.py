@@ -3,27 +3,27 @@ class Solution:
         if len(s) <= 10:
             return []
         
-        seen, res = set(), set()
-        repeated  = set()
         dna_map   = {'A': 0b00, 'C': 0b01, 'G': 0b10, 'T': 0b11}
+        seen      = bytearray(1 << 20)
         mask      = (1 << 20) - 1
+        res       = []
         window    = 0
 
         for i in range(10):
             window = (window << 2) | dna_map[s[i]]
 
-        seen.add(window)
+        seen[window] = 1
 
         for i in range(10, len(s)):
             window = ((window << 2) | dna_map[s[i]]) & mask
 
-            if window in seen and window not in repeated:
-                repeated.add(window)
-                res.add(s[i - 9:i + 1])
-            else:
-                seen.add(window)
+            if seen[window] == 0:
+                seen[window] = 1
+            elif seen[window] == 1:
+                res.append(s[i - 9:i + 1])
+                seen[window] = 2
 
-        return list(res)
+        return res
 
         # seen = set()
         # res = set()
