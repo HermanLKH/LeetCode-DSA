@@ -16,7 +16,7 @@ class Solution:
         for i in range(10, len(s)):
             window = ((window << 2) | dna_map[s[i]]) & mask
 
-            if window in seen:
+            if window in seen and window not in res:
                 res.add(s[i - 9:i + 1])
             else:
                 seen.add(window)
