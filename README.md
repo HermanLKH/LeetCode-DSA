@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0169-majority-element) |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0202-happy-number](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/HermanLKH/LeetCode-Python/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/HermanLKH/LeetCode-Python/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/HermanLKH/LeetCode-Python/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/HermanLKH/LeetCode-Python/tree/master/0125-valid-palindrome) |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/HermanLKH/LeetCode-Python/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/HermanLKH/LeetCode-Python/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0383-ransom-note) |
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0191-number-of-1-bits](https://github.com/HermanLKH/LeetCode-Python/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0287-find-the-duplicate-number) |
 ## Simulation
@@ -361,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0209-minimum-size-subarray-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0219-contains-duplicate-ii) |
 | [0567-permutation-in-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0567-permutation-in-string) |
@@ -480,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0705-design-hashset](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0706-design-hashmap) |
 ## Quicksort
@@ -519,4 +524,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0852-peak-index-in-a-mountain-array](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0852-peak-index-in-a-mountain-array) |
+## Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
+## Z Algorithm
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
