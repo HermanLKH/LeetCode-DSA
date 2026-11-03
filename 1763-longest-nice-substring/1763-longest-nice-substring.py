@@ -1,11 +1,15 @@
+# Time complexity:  O(N)
+# Space complexity: O(N)
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:
         if len(s) <= 1:
             return ""
         
+        # Time complexity: O(N)
         chars = set(s)
         
-        for i, ch in enumerate(chars):
+        # Time complexity: O(C), C <= 52
+        for ch in chars:
             if ch.swapcase() not in chars:
                 parts = s.split(ch)
                 longest_str = ""
@@ -19,3 +23,4 @@ class Solution:
                 return longest_str
 
         return s
+        
