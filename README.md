@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1590-make-sum-divisible-by-p](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1590-make-sum-divisible-by-p) |
+| [1763-longest-nice-substring](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1763-longest-nice-substring) |
 | [2248-intersection-of-multiple-arrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2248-intersection-of-multiple-arrays) |
 ## Math
 |  |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0767-reorganize-string) |
 | [1405-longest-happy-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1405-longest-happy-string) |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1422-maximum-score-after-splitting-a-string) |
+| [1763-longest-nice-substring](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1763-longest-nice-substring) |
 | [2390-removing-stars-from-a-string](https://github.com/HermanLKH/LeetCode-DSA/tree/master/2390-removing-stars-from-a-string) |
 ## Divide and Conquer
 |  |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/HermanLKH/LeetCode-Python/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0973-k-closest-points-to-origin](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1763-longest-nice-substring](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1763-longest-nice-substring) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -282,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0187-repeated-dna-sequences) |
 | [0191-number-of-1-bits](https://github.com/HermanLKH/LeetCode-Python/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0287-find-the-duplicate-number) |
+| [1763-longest-nice-substring](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1763-longest-nice-substring) |
 ## Simulation
 |  |
 | ------- |
@@ -378,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/HermanLKH/LeetCode-DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1652-defuse-the-bomb](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1652-defuse-the-bomb) |
+| [1763-longest-nice-substring](https://github.com/HermanLKH/LeetCode-DSA/tree/master/1763-longest-nice-substring) |
 ## Newton's Method
 |  |
 | ------- |
