@@ -4,19 +4,15 @@ class Solution:
         used = set()
 
         for ch, target in zip(s, t):
-            if ch not in matched:
-                if target not in used:
-                    matched[ch] = target
-                    used.add(target)
-                else:
-                    return False                
-            
-            replaced_ch = matched[ch]
-
-            if replaced_ch == target:
-                continue
+            if ch in matched:
+                if matched[ch] != target:
+                    return False
             else:
-                return False
+                if target in used:
+                    return False
+
+                matched[ch] = target
+                used.add(target)
 
         return True
         
