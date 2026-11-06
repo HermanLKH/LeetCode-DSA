@@ -1,3 +1,5 @@
+# Time complexity:  O(N)
+# Space complexity: O(C), number of unique characters
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         matched = {}
