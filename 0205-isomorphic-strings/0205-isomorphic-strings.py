@@ -1,19 +1,19 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         matched = {}
-        duplicated = {}
+        used = set()
 
-        for i, ch in enumerate(s):
+        for ch, target in zip(s, t):
             if ch not in matched:
-                if t[i] not in duplicated:
-                    matched[ch] = t[i]
-                    duplicated[t[i]] = 1
+                if target not in used:
+                    matched[ch] = target
+                    used.add(target)
                 else:
                     return False                
             
             replaced_ch = matched[ch]
 
-            if replaced_ch == t[i]:
+            if replaced_ch == target:
                 continue
             else:
                 return False
