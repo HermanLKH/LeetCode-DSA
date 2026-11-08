@@ -6,7 +6,7 @@ class Solution:
             return False
 
         lookup = {}
-        seen   = {}
+        seen   = set()
 
         for p, w in zip(pattern, words):
             if p not in lookup:
@@ -14,7 +14,7 @@ class Solution:
                     return False
                 else:
                     lookup[p] = w
-                    seen[w] = 1
+                    seen.add(w)
             elif lookup[p] != w:
                 return False
         return True
